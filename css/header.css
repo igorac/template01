@@ -1,0 +1,86 @@
+.header-1 {
+    height: 60px;
+    background-color: #252323;
+}
+
+.header-superior {
+    width: 980px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid tomato; */
+}
+
+/* div.logo {
+    border: 1px solid tomato;
+} */
+
+div.logo img {
+    margin: 15px 12px;
+    /* border: 1px solid tomato; */
+}
+
+/* div.redes-sociais {
+    border: 1px solid tomato;
+} */
+
+.redes-sociais ul {
+    margin: 15px 10px 0 0;
+}
+
+.redes-sociais  ul  li {
+    display: inline-block;
+}
+
+.redes-sociais ul li a {
+    margin-left: 18px;
+    font-size: 28px;
+    color: #c1c1c1;
+}
+
+.header-2 {
+    height: 85px;
+    background-color: #ffffff;
+    border-bottom: 4px solid #efefef;
+}
+
+.header-inferior {
+    width: 980px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-header-inferior {
+    padding-top: 30px; /* Empurra o menu 30px superior */
+}
+
+.menu-header-inferior ul li {
+    display: inline-block;
+}
+
+.menu-header-inferior ul li a{
+    text-transform: uppercase;
+    font-size: 19px;
+    color: #8b8b8b;
+    padding: 30px 10px; 
+    margin: 0 7.5px 0 7.5px;
+}
+
+.menu-header-inferior ul li a:hover {
+    color: #00bac6;
+    border-bottom: 2px solid #00bac6;
+}
+
+div.search {
+    height: 85px;
+}
+
+div.search input {
+    margin-top: 21px;
+    border: 1px solid #d6d6d6;
+    padding: 10px 19px;
+    background-image: url('../images/lupa-search.png');
+    background-repeat: no-repeat;
+    background-position: 94%; /* Posiciona a imagem da lupa */
+}
