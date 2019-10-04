@@ -1,7 +1,19 @@
-.t {
-    background-color: aqua;
-}
-
 .img-banner {
     width: 100vw!important;
+    height: 455px;
+}
+
+.owl-theme .owl-dots .owl-dot span{
+    border:2px solid #fff;
+    background-color: transparent;
+} 
+
+
+.owl-theme .owl-dots .owl-dot.active span {
+    background: #00bac6;
+}
+
+.owl-theme .owl-nav.disabled+.owl-dots {
+    position: relative;
+    top: -60px;
 }
