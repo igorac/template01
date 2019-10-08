@@ -6,6 +6,8 @@
 .owl-theme .owl-dots .owl-dot span{
     border:2px solid #fff;
     background-color: transparent;
+    height: 12px;
+    width: 12px;
 } 
 
 

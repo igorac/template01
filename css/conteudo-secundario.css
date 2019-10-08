@@ -1,0 +1,50 @@
+.section-3 {
+    background: #eeeeee;
+    width: 100%;
+}
+
+.sub-section-3 {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.col-3 {
+    display: flex;
+}
+
+/* Selecione o primeiro .col-3 */
+.col-3:nth-child(1) {
+    padding-top: 37px;
+}
+
+.section-3:before {
+    content: '';
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    height: 51px;
+    background: #fff url('../images/seta.png') no-repeat center;
+}
+
+.container-img img {
+    height: 184px;
+    width: 308px;
+}
+
+.container-section-3 {
+    border: 1px solid #c5c5c5;
+    margin: 0 26px 26px 0;
+}
+
+div.conteudo {
+    padding: 19px 20px;
+}
+
+h3.title-img {
+    color: #7c7b7b;
+    margin-bottom: 12px;
+}
+
+div.conteudo p {
+    color: #818181;
+}
